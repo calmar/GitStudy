@@ -10,6 +10,7 @@ namespace GitStudy.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.AdditionalInfo = "Additional information";
             return View();
         }
 
